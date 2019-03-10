@@ -12,7 +12,7 @@
  It does raise an interesting problem, however. CGContext is a reference type.
  Generic methods can't rely on the value-ness of things they receive, which can
  lead to confusion. It's possible to require AnyObject, but it's not possible to
- forbid it.
+ forbid it. See [Does It Value?](Does%20It%20Value%3F)
 */
 
 import CoreGraphics
