@@ -31,9 +31,10 @@
  wants to add new kinds of shapes, it needs to implement a new Renderer that
  understands those shapes.
 
- Obviously Crusty's system could be effectively built with inheritance without
- creating all these problems. What I'm really exploring here is the impact of
- starting from the model, rather than starting from the consumer of the model.
+ Obviously Crusty's system could be [effectively built with inheritance](CrustyClass)
+ without creating all these problems. What I'm really exploring here is the
+ impact of starting from the model, rather than starting from the consumer of
+ the model.
 
  */
 
